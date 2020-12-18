@@ -47,6 +47,11 @@ public class CacheConfiguration {
             createCache(cm, es.lab.music.domain.User.class.getName());
             createCache(cm, es.lab.music.domain.Authority.class.getName());
             createCache(cm, es.lab.music.domain.User.class.getName() + ".authorities");
+            createCache(cm, es.lab.music.domain.Artist.class.getName());
+            createCache(cm, es.lab.music.domain.Genre.class.getName());
+            createCache(cm, es.lab.music.domain.Track.class.getName());
+            createCache(cm, es.lab.music.domain.Album.class.getName());
+            createCache(cm, es.lab.music.domain.Album.class.getName() + ".tracks");
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,23 @@
+{
+  "musicApp": {
+    "track": {
+      "home": {
+        "title": "Tracks",
+        "createLabel": "Crear nuevo Track",
+        "createOrEditLabel": "Crear o editar Track",
+        "notFound": "Ningún Tracks encontrado"
+      },
+      "created": "Un nuevo Track ha sido creado con el identificador {{ param }}",
+      "updated": "Un Track ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Track ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Track {{ id }}?"
+      },
+      "detail": {
+        "title": "Track"
+      },
+      "name": "Name",
+      "album": "Album"
+    }
+  }
+}
